@@ -1,0 +1,9 @@
+.slider{
+	margin:3%;
+	display:flex;
+	overflow:auto;
+	max-width:60%;
+	max-height:400px;
+	
+	
+}
