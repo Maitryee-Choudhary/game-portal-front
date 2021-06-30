@@ -1,0 +1,30 @@
+.gamemain{
+	display:flex;
+	flex-direction:row;
+	justify-content:start;
+	width:auto;
+	position: relative;
+}
+
+.rightGamepage{
+	width:50vw;
+}
+.leftGamepage{
+	width:50vw;
+}
+.rightGamepage p{
+	
+	width:100%;
+}
+
+.leftGamepage p{
+	width:100%;
+}
+
+.gamebox {
+  width: 45vw;
+  height: 400px;
+  border: 15px solid red;
+  padding: 50px;
+  margin: 20px;
+}
