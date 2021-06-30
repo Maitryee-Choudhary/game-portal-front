@@ -2,8 +2,13 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import SimpleImageSlider from "react-simple-image-slider";
 import useWindowDimensions from "./viewportHook";
+import {useState} from "react";
+
+
+
 
 function ImgSlider(){
+	
 	const myStyle={
     
     width:'10%',
@@ -17,12 +22,14 @@ function ImgSlider(){
 ];
 	return(
 
-	<div style={myStyle}>
+	<div>
 	<SimpleImageSlider
+		navstyle={1}
         width={width/2}
         height={height/2}
         images={images}
 		showBullets="true"
+		slideDuration="0.5"
       />
 	  
     </div>
