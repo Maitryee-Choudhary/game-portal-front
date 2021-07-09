@@ -1,16 +1,18 @@
 .gamemain{
 	display:flex;
 	flex-direction:row;
-	justify-content:start;
-	width:auto;
-	position: relative;
+	justify-content:center;
 }
 
 .rightGamepage{
 	width:50vw;
+	padding:3%;
+	
 }
 .leftGamepage{
+	padding:3%;
 	width:50vw;
+	padding-left:5%;
 }
 .rightGamepage p{
 	
@@ -22,9 +24,18 @@
 }
 
 .gamebox {
-  width: 45vw;
-  height: 400px;
+  width: 55vw;
+  height: 1000px;
   border: 15px solid red;
+  padding: 50px;
+  margin: 20px;
+}
+
+.meetbox {
+  width: 30vw;
+  margin:1px;
+  height: 1000px;
+  border: 15px solid green;
   padding: 50px;
   margin: 20px;
 }
